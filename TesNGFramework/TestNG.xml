@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<parameter name="Suitelevel" value="Moksh"></parameter>     
+  <test name="TestCase1">
+  <parameter name="Testlevel" value="Juneja"></parameter>
+   <parameter name="Suitelevel" value="1"></parameter> 
+    <classes>
+      <class name="TestNG.LoginusingTestNG"/>
+      <methods>
+      <include name="TestCase1"> </include>
+     !.. <exclude name="TestCase2"></exclude>..!
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
